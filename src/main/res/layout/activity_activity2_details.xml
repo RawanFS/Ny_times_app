@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar_1"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="#FFA000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/caseDeatailIv"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp" />
+            <!--android:src="@drawable/photocercle"/>-->
+            <TextView
+                android:id="@+id/tvTitle_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Title"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:weightSum="1">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_weight="0.5"
+            android:text="dd-mm-yyyy"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author Name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <!--<ImageView-->
+                <!--android:layout_width="36dp"-->
+                <!--android:layout_height="36dp"-->
+                <!--app:srcCompat="@drawable/ic_library_books_black_24dp" />-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum dui
+ac enim ullamcorper, ut hendrerit augue gravida."
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/loginBtn"-->
+        <!--android:weightSum="1"-->
+        <!--android:layout_marginStart="15dp"-->
+        <!--android:layout_marginEnd="15dp"-->
+        <!--android:layout_marginTop="15dp"-->
+        <!--&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/matchCaseBtn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginEnd="5dp"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:layout_weight="0.37"-->
+            <!--android:background="@drawable/white_btn"-->
+            <!--android:letterSpacing="0.5"-->
+            <!--android:text="@string/match_case"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/donateBtn"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="5dp"-->
+            <!--android:layout_marginStart="5dp"-->
+            <!--android:layout_weight="0.63"-->
+            <!--android:background="@drawable/white_btn"-->
+            <!--android:text="@string/donate"-->
+            <!--android:letterSpacing="0.5"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+    <!--</LinearLayout>-->
+</LinearLayout>
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical"-->
+    <!--tools:context="com.example.rawanalsh.warba_test_v0.MainActivity">-->
+
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar_1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:background="#FFA000"/>-->
+<!--</LinearLayout>-->

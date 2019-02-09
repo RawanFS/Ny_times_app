@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.rawanalsh.warba_test_v0.MainActivity">
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".Activity2">-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_0"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#FFA000"/>
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_below="@+id/toolbar_0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+<!--</android.support.constraint.ConstraintLayout>-->
+</LinearLayout>
